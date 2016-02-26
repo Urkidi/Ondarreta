@@ -1,2 +1,2 @@
 # Ondarreta
-Sirius (Black) Game proyect
+Sirius (Black) Game project
