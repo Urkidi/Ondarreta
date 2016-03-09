@@ -1,0 +1,657 @@
+﻿[2016.03.09-18.58.08:100][  0]Log file open, 03/09/16 19:58:08
+[2016.03.09-18.58.08:101][  0]LogInit:Display: Running engine for game: ProjectOndarreta
+[2016.03.09-18.58.08:101][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.09-18.58.08:101][  0]LogInit:Display: RandInit(1589093508) SRandInit(1589093511).
+[2016.03.09-18.58.08:101][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.09-18.58.08:101][  0]LogStats: Stats thread started at 0.151625
+[2016.03.09-18.58.08:101][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.09-18.58.08:101][  0]LogInit: API Version: 2758231
+[2016.03.09-18.58.08:101][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.09-18.58.08:101][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.09-18.58.08:101][  0]LogInit: Build Configuration: Development
+[2016.03.09-18.58.08:101][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.09-18.58.08:101][  0]LogInit: Command line: -EpicPortal 
+[2016.03.09-18.58.08:101][  0]LogInit: Base directory: D:/Investigation_Zone/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.09-18.58.08:101][  0]LogInit: Rocket: 1
+[2016.03.09-18.58.08:116][  0]LogInit: Using libcurl 7.41.0
+[2016.03.09-18.58.08:116][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.09-18.58.08:116][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.09-18.58.08:116][  0]LogInit:  - other features:
+[2016.03.09-18.58.08:116][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.09-18.58.08:116][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.09-18.58.08:116][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.09-18.58.08:116][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.09-18.58.08:116][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.09-18.58.08:117][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.09-18.58.08:117][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.09-18.58.08:117][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.09-18.58.08:117][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.09-18.58.08:117][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.09-18.58.08:135][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.09-18.58.08:157][  0]LogInit: Object subsystem initialized
+[2016.03.09-18.58.08:183][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.09-18.58.08:183][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.09-18.58.08:213][  0]LogInit: Computer: ALMA-ITSASO
+[2016.03.09-18.58.08:213][  0]LogInit: User: Unai
+[2016.03.09-18.58.08:213][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.09-18.58.08:213][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2016.03.09-18.58.08:213][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.03.09-18.58.08:213][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.09-18.58.08:213][  0]LogMemory: Process Physical Memory: 56.25 MB used, 56.25 MB peak
+[2016.03.09-18.58.08:213][  0]LogMemory: Process Virtual Memory: 55.20 MB used, 55.20 MB peak
+[2016.03.09-18.58.08:213][  0]LogMemory: Physical Memory: 4978.76 MB used, 8124.02 MB total
+[2016.03.09-18.58.08:213][  0]LogMemory: Virtual Memory: 384.15 MB used, 134217728.00 MB total
+[2016.03.09-18.58.09:878][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 740M    (Feature Level 11_0)
+[2016.03.09-18.58.09:878][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 4062MB of shared system memory, 1 output[s]
+[2016.03.09-18.58.09:895][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.03.09-18.58.09:895][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4062MB of shared system memory, 0 output[s]
+[2016.03.09-18.58.09:898][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.09-18.58.09:899][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4062MB of shared system memory, 0 output[s]
+[2016.03.09-18.58.09:899][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.09-18.58.09:913][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.09-18.58.09:913][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.09-18.58.09:947][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.09-18.58.09:970][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Intermediate/Shaders/WorkingDirectory/9044/).
+[2016.03.09-18.58.09:970][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Unai/AppData/Local/Temp/UnrealShaderWorkingDir/2326441446CFB1E01FE8CDAD28A294C6/'.
+[2016.03.09-18.58.09:970][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.09-18.58.12:683][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.09-18.58.12:696][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.09-18.58.12:709][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.09-18.58.12:722][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.09-18.58.12:734][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.09-18.58.12:743][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.09-18.58.12:751][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.09-18.58.12:760][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.09-18.58.12:769][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.09-18.58.12:778][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.09-18.58.12:788][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.09-18.58.12:806][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.09-18.58.12:806][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.09-18.58.12:809][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.09-18.58.12:837][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.09-18.58.12:846][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.09-18.58.12:855][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.09-18.58.12:865][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.09-18.58.12:865][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.09-18.58.13:077][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.09-18.58.13:231][  0]LogDerivedDataCache: Loaded boot cache 0.15s 41MB C:/Users/Unai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.09-18.58.13:231][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Unai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.09-18.58.13:231][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.09-18.58.13:231][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.09-18.58.13:231][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.09-18.58.13:231][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.09-18.58.13:452][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.09-18.58.13:466][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Unai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.09-18.58.14:029][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.09-18.58.14:039][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.09-18.58.14:438][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.09-18.58.14:438][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.09-18.58.15:116][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.09-18.58.17:704][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.09-18.58.17:862][  0]LogAssetRegistry: FAssetRegistry took 0.0116 seconds to start up
+[2016.03.09-18.58.18:327][  0]SourceControl: Info Source control is disabled
+[2016.03.09-18.58.18:427][  0]SourceControl: Info Source control is disabled
+[2016.03.09-18.58.18:453][  0]SourceControl: Info Source control is disabled
+[2016.03.09-18.58.18:478][  0]SourceControl: Info Source control is disabled
+[2016.03.09-18.58.19:050][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.09-18.58.19:050][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.03.09-18.58.19:213][  0]LogEngine: Initializing Engine...
+[2016.03.09-18.58.19:219][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.09-18.58.19:220][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.09-18.58.19:597][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.09-18.58.19:611][  0]LogInit: XAudio2 using 'Altavoces / Auriculares (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.09-18.58.19:659][  0]LogInit: FAudioDevice initialized.
+[2016.03.09-18.58.19:715][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Unai/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.09-18.58.19:729][  0]LogInit: Texture streaming: Enabled
+[2016.03.09-18.58.19:742][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.09-18.58.19:742][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.09-18.58.19:742][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d7adaae849ea30e6caa19b820571e0d9|33a1c5eb2cc94ca8a72a46d53f3ce1d2|4517af11-a817-4828-86eb-27c26c7bd883
+[2016.03.09-18.58.19:743][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.09-18.58.19:784][  0]LogInit: Transaction tracking system initialized
+[2016.03.09-18.58.19:853][  0]BlueprintLog: New page: Editor Load
+[2016.03.09-18.58.20:976][  0]LocalizationService: Info Localization service is disabled
+[2016.03.09-18.58.21:438][  0]LogConsoleResponse:Display: 
+[2016.03.09-18.58.21:760][  0]LogFileCache: Scanning file cache for directory 'D:/Investigation_Zone/Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/' took 0.01s
+[2016.03.09-18.58.21:760][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.09-18.58.21:935][  0]SourceControl: Info Source control is disabled
+[2016.03.09-18.58.21:937][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 D:/Investigation_Zone/Epic Games/4.10/FeaturePacks/StarterContent.upack)
+[2016.03.09-18.58.21:997][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.03.09-18.58.22:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.03.09-18.58.22:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.03.09-18.58.22:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.03.09-18.58.22:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.03.09-18.58.22:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.03.09-18.58.22:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.03.09-18.58.22:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.03.09-18.58.22:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.03.09-18.58.22:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.03.09-18.58.22:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.03.09-18.58.22:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.03.09-18.58.22:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.03.09-18.58.22:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.03.09-18.58.22:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.03.09-18.58.22:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.03.09-18.58.22:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.03.09-18.58.22:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.03.09-18.58.22:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Fire01.uasset"
+[2016.03.09-18.58.22:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.03.09-18.58.22:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.03.09-18.58.22:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.03.09-18.58.22:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Light01.uasset"
+[2016.03.09-18.58.22:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.03.09-18.58.22:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Light02.uasset"
+[2016.03.09-18.58.22:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.03.09-18.58.22:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.03.09-18.58.23:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.03.09-18.58.23:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.03.09-18.58.23:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.03.09-18.58.23:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.03.09-18.58.23:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.03.09-18.58.23:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.03.09-18.58.23:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.03.09-18.58.23:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Steam01.uasset"
+[2016.03.09-18.58.23:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.03.09-18.58.23:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.03.09-18.58.23:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.03.09-18.58.23:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.03.09-18.58.23:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.03.09-18.58.23:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.03.09-18.58.23:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.03.09-18.58.23:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.03.09-18.58.23:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.03.09-18.58.23:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.03.09-18.58.23:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.03.09-18.58.23:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.03.09-18.58.23:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.03.09-18.58.23:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.03.09-18.58.23:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.03.09-18.58.24:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.03.09-18.58.24:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.03.09-18.58.24:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.03.09-18.58.24:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.03.09-18.58.24:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.03.09-18.58.25:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Maps/StarterMap.umap"
+[2016.03.09-18.58.25:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.03.09-18.58.25:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.03.09-18.58.25:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.03.09-18.58.25:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.03.09-18.58.25:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.03.09-18.58.25:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.03.09-18.58.25:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.03.09-18.58.25:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.03.09-18.58.25:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.03.09-18.58.25:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.03.09-18.58.25:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.03.09-18.58.25:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.03.09-18.58.25:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.03.09-18.58.25:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.03.09-18.58.25:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.03.09-18.58.25:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.03.09-18.58.25:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.03.09-18.58.25:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.03.09-18.58.25:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.03.09-18.58.25:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.03.09-18.58.25:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.03.09-18.58.25:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.03.09-18.58.25:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.03.09-18.58.25:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.03.09-18.58.26:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.03.09-18.58.26:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.03.09-18.58.26:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.03.09-18.58.26:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.03.09-18.58.26:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.03.09-18.58.26:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.03.09-18.58.26:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.03.09-18.58.26:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.03.09-18.58.26:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.03.09-18.58.26:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.03.09-18.58.26:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.03.09-18.58.26:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.03.09-18.58.26:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.03.09-18.58.26:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.03.09-18.58.26:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.03.09-18.58.26:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.03.09-18.58.26:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.03.09-18.58.26:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.03.09-18.58.26:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.03.09-18.58.26:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.03.09-18.58.26:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.03.09-18.58.26:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.03.09-18.58.26:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.03.09-18.58.26:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.03.09-18.58.26:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.03.09-18.58.26:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.03.09-18.58.26:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.03.09-18.58.27:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.03.09-18.58.27:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.03.09-18.58.27:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.03.09-18.58.27:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.03.09-18.58.27:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.03.09-18.58.27:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.03.09-18.58.27:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.03.09-18.58.27:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.03.09-18.58.27:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.03.09-18.58.27:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.03.09-18.58.27:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.03.09-18.58.27:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.03.09-18.58.27:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.03.09-18.58.28:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_Door.uasset"
+[2016.03.09-18.58.28:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.03.09-18.58.28:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.03.09-18.58.28:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.03.09-18.58.28:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.03.09-18.58.28:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.03.09-18.58.28:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.03.09-18.58.28:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.03.09-18.58.28:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.03.09-18.58.28:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.03.09-18.58.28:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.03.09-18.58.28:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.03.09-18.58.28:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.03.09-18.58.28:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.03.09-18.58.28:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.03.09-18.58.28:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.03.09-18.58.28:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.03.09-18.58.28:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.03.09-18.58.28:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.03.09-18.58.29:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.03.09-18.58.29:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.03.09-18.58.29:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.03.09-18.58.29:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.03.09-18.58.29:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.03.09-18.58.29:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.03.09-18.58.29:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.03.09-18.58.29:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.03.09-18.58.29:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.03.09-18.58.29:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.03.09-18.58.29:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.03.09-18.58.29:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.03.09-18.58.29:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.03.09-18.58.29:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.03.09-18.58.29:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.03.09-18.58.29:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.03.09-18.58.29:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.03.09-18.58.30:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.03.09-18.58.30:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.03.09-18.58.30:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.03.09-18.58.30:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.03.09-18.58.30:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.03.09-18.58.30:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.03.09-18.58.30:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.03.09-18.58.30:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.03.09-18.58.30:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.03.09-18.58.30:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.03.09-18.58.30:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.03.09-18.58.30:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.03.09-18.58.30:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.03.09-18.58.31:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.03.09-18.58.31:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.03.09-18.58.31:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.03.09-18.58.31:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.03.09-18.58.31:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.03.09-18.58.32:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.03.09-18.58.32:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.03.09-18.58.32:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.03.09-18.58.32:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.03.09-18.58.32:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.03.09-18.58.32:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.03.09-18.58.32:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.03.09-18.58.32:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.03.09-18.58.32:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.03.09-18.58.32:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.03.09-18.58.33:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.03.09-18.58.33:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.03.09-18.58.33:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.03.09-18.58.33:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.03.09-18.58.33:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.03.09-18.58.33:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.03.09-18.58.33:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.03.09-18.58.33:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.03.09-18.58.33:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.03.09-18.58.34:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.03.09-18.58.34:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.03.09-18.58.34:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.03.09-18.58.35:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.03.09-18.58.35:607][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.03.09-18.58.35:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.03.09-18.58.36:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.03.09-18.58.36:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.03.09-18.58.36:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.03.09-18.58.37:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.03.09-18.58.37:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.03.09-18.58.37:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.03.09-18.58.38:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.03.09-18.58.38:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.03.09-18.58.38:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.03.09-18.58.38:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.03.09-18.58.38:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.03.09-18.58.38:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.03.09-18.58.38:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.03.09-18.58.38:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.03.09-18.58.39:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.03.09-18.58.39:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.03.09-18.58.39:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.03.09-18.58.40:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.03.09-18.58.40:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.03.09-18.58.40:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.03.09-18.58.40:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.03.09-18.58.41:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.03.09-18.58.41:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.03.09-18.58.42:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.03.09-18.58.42:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.03.09-18.58.42:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.03.09-18.58.43:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.03.09-18.58.43:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.03.09-18.58.43:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.03.09-18.58.44:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.03.09-18.58.44:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.03.09-18.58.44:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.03.09-18.58.44:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.03.09-18.58.45:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.03.09-18.58.45:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.03.09-18.58.45:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.03.09-18.58.46:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.03.09-18.58.46:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.03.09-18.58.46:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.03.09-18.58.47:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.03.09-18.58.47:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.03.09-18.58.47:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.03.09-18.58.47:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.03.09-18.58.48:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.03.09-18.58.48:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.03.09-18.58.48:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.03.09-18.58.48:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.03.09-18.58.49:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.03.09-18.58.49:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.03.09-18.58.49:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.03.09-18.58.49:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.03.09-18.58.49:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.03.09-18.58.50:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.03.09-18.58.50:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.03.09-18.58.50:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.03.09-18.58.50:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.03.09-18.58.50:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.03.09-18.58.50:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.03.09-18.58.50:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.03.09-18.58.50:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.03.09-18.58.51:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.03.09-18.58.51:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.03.09-18.58.51:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.03.09-18.58.52:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.03.09-18.58.52:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.03.09-18.58.52:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.03.09-18.58.52:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.03.09-18.58.52:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.03.09-18.58.52:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.03.09-18.58.53:517][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.03.09-18.58.53:751][  0]LogSavePackage: Save=55.803974ms
+[2016.03.09-18.58.53:751][  0]LogSavePackage: Moving '../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Saved/Floor_400x400D6AF0EDE4A03D6641FC03D9FDF1B6323.tmp' to '../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.03.09-18.58.53:761][  0]LogSavePackage: Total save time: 83.789568ms
+[2016.03.09-18.58.53:761][  0]LogSavePackage:Display: Finished SavePackage ../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.03.09-18.58.53:761][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.03.09-18.58.53:770][  0]Cmd: MAP LOAD FILE="../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.09-18.58.53:772][  0]LightingResults: New page: Lighting Build
+[2016.03.09-18.58.53:778][  0]MapCheck: New page: Map Check
+[2016.03.09-18.58.53:778][  0]LightingResults: New page: Lighting Build
+[2016.03.09-18.58.53:814][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A6286A7B00
+[2016.03.09-18.58.54:960][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.09-18.58.54:978][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.09-18.58.54:979][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.09-18.58.55:129][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 149.912ms to complete.
+[2016.03.09-18.58.55:129][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.360
+[2016.03.09-18.58.55:408][  0]LogCollectionManager: Loaded 0 collections in 0.007817 seconds
+[2016.03.09-18.58.55:565][  0]LogFileCache: Scanning file cache for directory 'D:/Investigation_Zone/Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Saved/Collections/' took 0.01s
+[2016.03.09-18.58.55:565][  0]LogFileCache: Scanning file cache for directory 'D:/Investigation_Zone/Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/Developers/Unai/Collections/' took 0.01s
+[2016.03.09-18.58.55:565][  0]LogFileCache: Scanning file cache for directory 'D:/Investigation_Zone/Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/Collections/' took 0.01s
+[2016.03.09-18.58.55:565][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2016.03.09-18.58.55:591][  0]LogContentBrowser: Native class hierarchy populated in 0.0256 seconds. Added 1893 classes and 338 folders.
+[2016.03.09-18.58.55:633][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2016.03.09-18.58.55:830][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.03.09-18.58.55:841][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2016.03.09-18.58.55:907][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.09-18.58.55:917][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.09-18.58.55:943][  0]LogLoad: Full Startup: 48.85 seconds (BP compile: 0.13 seconds)
+[2016.03.09-18.58.55:962][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.09-18.58.55:972][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.09-18.58.56:514][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.09-18.58.56:800][  0]LogRenderer: Reallocating scene render targets to support 1208x684 (Frame:3).
+[2016.03.09-18.58.58:023][ 13]LogAssetRegistry: Asset discovery search completed in 40.1725 seconds
+[2016.03.09-18.58.58:023][ 13]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2016.03.09-18.58.58:023][ 13]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
+[2016.03.09-19.28.18:671][483]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.03.09-19.28.19:512][490]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.03.09-19.28.20:250][514]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.03.09-19.28.25:329][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2016.03.09-19.28.26:212][641]Cmd: DELETE
+[2016.03.09-19.28.26:212][641]Cmd: ACTOR DELETE
+[2016.03.09-19.28.26:520][641]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.09-19.28.26:716][641]LogEditorActor: Deleted 1 Actors (0.212 secs)
+[2016.03.09-19.28.27:282][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2016.03.09-19.28.49:458][104]Cmd: SELECT NONE
+[2016.03.09-19.28.53:346][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2016.03.09-19.28.54:123][218]Cmd: DELETE
+[2016.03.09-19.28.54:123][218]Cmd: ACTOR DELETE
+[2016.03.09-19.28.54:124][218]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.09-19.28.54:206][218]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2016.03.09-19.28.54:780][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2016.03.09-19.28.55:033][239]Cmd: DELETE
+[2016.03.09-19.28.55:033][239]Cmd: ACTOR DELETE
+[2016.03.09-19.28.55:034][239]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.09-19.28.55:103][239]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2016.03.09-19.29.01:496][373]LogSavePackage: Save=976.945251ms
+[2016.03.09-19.29.01:496][373]LogSavePackage: Moving '../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Saved/Minimal_DefaultF6061AC044D8FDEC63B5BF87A359010A.tmp' to '../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.03.09-19.29.01:502][373]LogSavePackage: Total save time: 1001.473263ms
+[2016.03.09-19.29.01:502][373]LogSavePackage:Display: Finished SavePackage ../../../../../Ureal engine 4/Proyectos/Ondarreta/ProjectOndarreta/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.03.09-19.29.03:819][416]Cmd: QUIT_EDITOR
+[2016.03.09-19.29.04:071][416]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.09-19.29.04:301][416]LogExit: Preparing to exit.
+[2016.03.09-19.29.05:744][416]LogExit: Editor shut down
+[2016.03.09-19.29.05:748][416]LogExit: Transaction tracking system shut down
+[2016.03.09-19.29.05:752][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A60B0FA0C0
+[2016.03.09-19.29.05:770][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A61B143A60
+[2016.03.09-19.29.06:335][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A639B3B240
+[2016.03.09-19.29.06:335][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001A65AA3A0C0
+[2016.03.09-19.29.06:335][416]LogExit: Object subsystem successfully closed.
+[2016.03.09-19.29.06:382][416]LogD3D11RHI: Shutdown
+[2016.03.09-19.29.06:382][416]LogD3D11RHI: CleanupD3DDevice
+[2016.03.09-19.29.06:564][416]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.09-19.29.06:611][416]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.03.09-19.29.06:611][416]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.03.09-19.29.06:611][416]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.03.09-19.29.06:611][416]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.03.09-19.29.06:611][416]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.03.09-19.29.06:637][416]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.03.09-19.29.06:637][416]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.03.09-19.29.06:638][416]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.03.09-19.29.06:638][416]LogModuleManager: Shutting down and abandoning module CookingStats (191)
+[2016.03.09-19.29.06:638][416]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.03.09-19.29.06:638][416]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.03.09-19.29.06:639][416]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.03.09-19.29.06:639][416]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.03.09-19.29.06:639][416]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.03.09-19.29.06:639][416]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.03.09-19.29.06:639][416]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.03.09-19.29.06:639][416]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.03.09-19.29.06:639][416]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.03.09-19.29.06:639][416]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.03.09-19.29.06:639][416]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.03.09-19.29.06:639][416]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.03.09-19.29.06:640][416]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.03.09-19.29.06:640][416]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.03.09-19.29.06:640][416]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.03.09-19.29.06:640][416]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.03.09-19.29.06:640][416]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.03.09-19.29.06:640][416]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.03.09-19.29.06:651][416]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.03.09-19.29.06:651][416]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.03.09-19.29.06:651][416]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.03.09-19.29.06:651][416]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.03.09-19.29.06:651][416]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.03.09-19.29.06:651][416]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.03.09-19.29.06:651][416]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.03.09-19.29.06:651][416]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.03.09-19.29.06:651][416]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.03.09-19.29.06:651][416]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.03.09-19.29.06:651][416]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.03.09-19.29.06:652][416]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.03.09-19.29.06:652][416]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.03.09-19.29.06:652][416]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.03.09-19.29.06:652][416]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.03.09-19.29.06:652][416]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.03.09-19.29.06:652][416]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.03.09-19.29.06:652][416]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.03.09-19.29.06:653][416]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.03.09-19.29.06:653][416]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.03.09-19.29.06:654][416]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.03.09-19.29.06:654][416]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.03.09-19.29.06:654][416]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.03.09-19.29.06:654][416]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.03.09-19.29.06:654][416]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.03.09-19.29.06:654][416]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.03.09-19.29.06:655][416]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.03.09-19.29.06:655][416]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.03.09-19.29.06:656][416]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.03.09-19.29.06:656][416]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.03.09-19.29.06:656][416]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.03.09-19.29.06:656][416]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.03.09-19.29.06:656][416]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.03.09-19.29.06:657][416]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.03.09-19.29.06:657][416]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.03.09-19.29.06:657][416]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.03.09-19.29.06:657][416]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.03.09-19.29.06:657][416]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.03.09-19.29.06:657][416]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.03.09-19.29.06:657][416]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.03.09-19.29.06:657][416]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.03.09-19.29.06:657][416]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.03.09-19.29.06:658][416]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.03.09-19.29.06:658][416]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.03.09-19.29.06:658][416]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.03.09-19.29.06:658][416]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.03.09-19.29.06:658][416]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.03.09-19.29.06:658][416]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.03.09-19.29.06:658][416]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.03.09-19.29.06:658][416]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.03.09-19.29.06:860][416]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.03.09-19.29.06:860][416]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.03.09-19.29.06:860][416]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.03.09-19.29.06:860][416]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.03.09-19.29.06:860][416]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.03.09-19.29.06:860][416]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.03.09-19.29.06:860][416]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.03.09-19.29.06:860][416]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.03.09-19.29.06:925][416]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.03.09-19.29.06:925][416]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.03.09-19.29.06:925][416]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.03.09-19.29.06:925][416]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.03.09-19.29.06:925][416]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.03.09-19.29.06:925][416]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.03.09-19.29.06:925][416]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.03.09-19.29.06:925][416]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.03.09-19.29.06:925][416]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.03.09-19.29.06:925][416]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.03.09-19.29.06:926][416]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.03.09-19.29.06:930][416]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.03.09-19.29.06:952][416]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.03.09-19.29.07:264][416]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.03.09-19.29.07:269][416]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.03.09-19.29.07:269][416]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.09-19.29.07:370][416]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.09-19.29.07:370][416]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.09-19.29.07:370][416]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.09-19.29.07:380][416]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.09-19.29.07:380][416]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.09-19.29.07:381][416]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.09-19.29.07:381][416]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.09-19.29.07:381][416]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.09-19.29.07:381][416]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.09-19.29.07:381][416]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.09-19.29.07:381][416]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.09-19.29.07:381][416]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.09-19.29.07:381][416]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.09-19.29.07:381][416]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.09-19.29.07:382][416]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.09-19.29.07:382][416]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.09-19.29.07:382][416]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.09-19.29.07:382][416]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.09-19.29.07:382][416]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.09-19.29.07:389][416]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.09-19.29.07:389][416]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.09-19.29.07:389][416]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.09-19.29.07:389][416]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.09-19.29.07:390][416]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.09-19.29.07:390][416]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.09-19.29.07:390][416]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.09-19.29.07:390][416]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.09-19.29.07:390][416]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.09-19.29.07:390][416]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.09-19.29.07:400][416]LogDerivedDataCache: Shutdown
+[2016.03.09-19.29.07:400][416]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.09-19.29.07:400][416]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.09-19.29.07:400][416]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.09-19.29.07:400][416]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.09-19.29.07:400][416]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.09-19.29.07:400][416]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.09-19.29.07:400][416]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.09-19.29.07:400][416]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.09-19.29.07:400][416]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.09-19.29.07:400][416]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.09-19.29.07:400][416]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.09-19.29.07:401][416]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.09-19.29.07:401][416]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.09-19.29.07:401][416]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.09-19.29.07:401][416]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.09-19.29.07:401][416]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.09-19.29.07:401][416]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.09-19.29.07:402][416]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.09-19.29.07:402][416]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.09-19.29.07:402][416]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.09-19.29.07:402][416]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.09-19.29.07:402][416]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.09-19.29.07:402][416]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.09-19.29.07:402][416]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.09-19.29.07:402][416]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.09-19.29.07:402][416]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.09-19.29.07:402][416]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.09-19.29.07:402][416]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.09-19.29.07:403][416]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.09-19.29.07:403][416]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.09-19.29.07:403][416]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.09-19.29.07:403][416]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.09-19.29.07:403][416]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.09-19.29.07:403][416]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.09-19.29.07:403][416]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.09-19.29.07:403][416]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.09-19.29.07:403][416]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.09-19.29.09:411][416]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.09-19.29.09:414][416]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.09-19.29.09:414][416]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.09-19.29.09:414][416]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.09-19.29.09:415][416]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.09-19.29.09:415][416]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.09-19.29.09:415][416]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.09-19.29.09:443][416]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.09-19.29.09:443][416]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.09-19.29.09:443][416]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.09-19.29.09:443][416]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.09-19.29.09:443][416]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.09-19.29.09:443][416]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.09-19.29.09:443][416]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.09-19.29.09:443][416]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.09-19.29.09:443][416]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.09-19.29.09:443][416]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.09-19.29.09:448][416]LogExit: Exiting.
+[2016.03.09-19.29.09:495][416]Log file closed, 03/09/16 20:29:09
