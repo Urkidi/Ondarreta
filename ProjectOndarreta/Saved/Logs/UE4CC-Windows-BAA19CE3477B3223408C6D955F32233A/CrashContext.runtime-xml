@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>964</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>ProjectOndarreta</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.10.4-2872498+++depot+UE4-Releases+4.10</EngineVersion>
+<CommandLine>-EpicPortal </CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<DefaultLocale>es_ES</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>D:/Investigation_Zone/Epic Games/4.10/Engine/Binaries/Win64/</BaseDir>
+<RootDir>D:/Investigation_Zone/Epic Games/4.10/</RootDir>
+<MachineId>D7ADAAE849EA30E6CAA19B820571E0D9</MachineId>
+<EpicAccountId>33a1c5eb2cc94ca8a72a46d53f3ce1d2</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Ensure condition failed: MousePositions.Num() == 0 [File:d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\landscapeeditor\private\LandscapeEdModeTools.h] [Line: 1301] 
+
+</ErrorMessage>
+<MiscNumberOfCores>4</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>8</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>Intel(R) HD Graphics 4600</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8518656000</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>1476907008</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140729920339968</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>3557769216</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>4261781504</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>6289883136</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>6289883136</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
